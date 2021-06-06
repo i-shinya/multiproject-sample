@@ -6,4 +6,5 @@ plugins {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web:2.4.4")
+	implementation(project(":multi-sub"))
 }
